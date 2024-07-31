@@ -2,17 +2,38 @@
 }
 
 .contactContainer {
-    background: #213547;
     padding: 0 1rem;
-    color: #c8c8c8;
     display: flex;
     justify-content: center;
     p {
         padding: 0 2rem;
         font-size: 0.9em;
     }
+    box-shadow: #213547 0 -7px 20px;
 }
 
 .title {
     font-size: 2.4rem;
+}
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.button {
+    padding: 0.7rem 2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#bookButton {
+    background: var(--primary);
+    color: #fff;
+    border-radius: 0.7rem;
+
 }

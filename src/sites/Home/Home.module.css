@@ -1,7 +1,16 @@
 .contentContainer {
-
+    display: flex;
 }
 
-.titleImage {
-    width: 100%;
+#titleImage {
+    width: 30rem;
+}
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10rem 20rem;
+}
+h2 {
+    font-weight: 500;
 }

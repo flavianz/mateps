@@ -10,6 +10,18 @@ export default function Header() {
             </div>
             <div className={styles.navContainer}>
                 <h1 className={styles.title}>MATEPS</h1>
+                <div>
+                    <a className={styles.button} href="/about">
+                        Über uns
+                    </a>
+                    <a
+                        className={styles.button}
+                        id={styles.bookButton}
+                        href="/book"
+                    >
+                        Jetzt buchen
+                    </a>
+                </div>
             </div>
         </div>
     );
